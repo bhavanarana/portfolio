@@ -28,17 +28,95 @@
     border-radius: 10px !important;
     margin-right: 120px;
     margin-top: 15px;
+    margin-left: 25px
 }
-#home-img{
+.home-img{
     width: 700px;
     height: 500px;
     margin-top: 90px;
-    align-items: ;
+   
 }
-#home-vl{
+.home-vertical{
     border-left: 6px solid black;
-    height: 100px;
+    height: 300px;
     margin-left: 132px;
-    margin-top: 300px;
+    margin-top: 250px;
 }
+.text-1{
+    color: black;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.text-2{
+    color: black;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 56px;
+}
+.text-3{
+    align: left;
+    color: black;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.aboutMe_heading{
+    color: #C5221F;
+    margin-left: 132px;
+    margin-top: 200px;
+    font-weight: bolder;
+    border-bottom:2px solid #C5221F;
+    width: 230px;
+}
+.aboutMe_intro{
+    text-align: center;
+    margin-right: 140px;
+    margin-left: 500px;
+    margin-top: -40px;
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
     
+}
+.about-horizontal{
+   border-bottom: 2px solid black;
+    margin-left: 500px;
+    margin-right: 140px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+   
+}
+.about-dob{
+    color: black;
+    margin-left: 500px;
+}
+.about-loc{
+    color: black;
+    text-align: right;
+    margin-right: 140px;
+    top: -250px;
+}
+.about-img{
+    width: 150px;
+    height: 250px;
+    margin-left: 132px;
+    margin-top: 34px;
+}
+.about-align{
+    margin-top: -320px;
+}
+.about-button{
+    border-radius: 10px !important;
+    text-align: center;
+    margin: -200px 300px 0px 870px;
+    background-color: #3E89CD;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+.img-loc{
+    text-align: right;
+    margin-right: 330px;
+    top: -40px;
+}
