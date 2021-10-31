@@ -1,122 +1,115 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-.navbar-title{
-    font-weight: bolder;
-    margin-left: 120px !important;
-    margin-top: 15px;
-    color: black;
-    font-size: 34px;
+.navbar-title {
+  font-weight: bolder;
+  margin-left: 120px !important;
+  margin-top: 15px;
+  color: black;
+  font-size: 34px;
 }
-.navbar-title:hover{
-    color:black;
+.navbar-title:hover {
+  color: black;
 }
-.navbar-sections a{
-    color: black;
-    font-weight: 600;
-    margin-right: 40px;
-    margin-top: 15px;
-    font-size: 18px;
+.navbar-sections a {
+  color: black;
+  font-weight: 600;
+  margin-right: 40px;
+  margin-top: 15px;
+  font-size: 18px;
 }
-.navbar-sections a:hover{
-    color: #D14F4F;
+.navbar-sections a:hover {
+  color: #d14f4f;
 }
 
-.navbar-button{
-    border-radius: 10px !important;
-    margin-right: 120px;
-    margin-top: 15px;
-    margin-left: 25px
+.navbar-button {
+  border-radius: 10px !important;
+  margin-right: 120px;
+  margin-top: 15px;
+  margin-left: 25px;
 }
-.home-img{
-    width: 700px;
-    height: 500px;
-    margin-top: 90px;
-   
+.home-img {
+  width: 650px;
+  height: 450px;
+  /* margin-top: 90px; */
 }
-.home-vertical{
-    border-left: 6px solid black;
-    height: 300px;
-    margin-left: 132px;
-    margin-top: 250px;
-}
-.text-1{
-    color: black;
-    margin-left: 25px;
-    font-weight: 600;
-    font-size: 24px;
-}
-.text-2{
-    color: black;
-    margin-left: 25px;
-    font-weight: bold;
-    font-size: 56px;
-}
-.text-3{
-    align: left;
-    color: black;
-    margin-left: 25px;
-    font-weight: bold;
-    font-size: 22px;
 
+.text-1 {
+  color: black;
+  margin-left: 25px;
+  font-weight: 600;
+  font-size: 24px;
 }
-.aboutMe_heading{
-    color: #C5221F;
-    margin-left: 132px;
-    margin-top: 200px;
-    font-weight: bolder;
-    border-bottom:2px solid #C5221F;
-    width: 230px;
+.text-2 {
+  color: black;
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 56px;
 }
-.aboutMe_intro{
-    text-align: center;
-    margin-right: 140px;
-    margin-left: 500px;
-    margin-top: -40px;
-    color: black;
-    font-weight: 600;
-    font-size: 22px;
-    
+.text-3 {
+  color: black;
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 22px;
 }
-.about-horizontal{
-   border-bottom: 2px solid black;
-    margin-left: 500px;
-    margin-right: 140px;
-    margin-top: 70px;
-    margin-bottom: 40px;
-   
+.aboutMe_heading {
+  color: #c5221f;
+  /* margin-left: 132px; */
+  /* margin-top: 200px; */
+  font-weight: bolder;
+  border-bottom: 2px solid #c5221f;
+  width: 210px;
 }
-.about-dob{
-    color: black;
-    margin-left: 500px;
+.aboutMe_intro {
+  text-align: center;
+  /* margin-right: 140px; */
+  /* margin-left: 500px; */
+  /* margin-top: -40px; */
+  color: black;
+  font-weight: 600;
+  font-size: 22px;
 }
-.about-loc{
-    color: black;
-    text-align: right;
-    margin-right: 140px;
-    top: -250px;
+.about-horizontal {
+  border: 2px solid black;
+  /* margin-left: 500px;
+  margin-right: 140px;
+  margin-top: 70px;
+  margin-bottom: 40px; */
 }
-.about-img{
-    width: 150px;
-    height: 250px;
-    margin-left: 132px;
-    margin-top: 34px;
+/* .about-dob {
+  color: black;
+  margin-left: 500px;
+} */
+/* .about-loc {
+  color: black;
+  text-align: right;
+  margin-right: 140px;
+  top: -250px;
+} */
+.about-img {
+  width: 150px;
+  height: 250px;
+  /* margin-left: 132px; */
+  margin-top: 30px;
 }
-.about-align{
-    margin-top: -320px;
+.about-align {
+  /* margin-top: -320px; */
 }
-.about-button{
-    border-radius: 10px !important;
-    text-align: center;
-    margin: -200px 300px 0px 870px;
-    background-color: #3E89CD;
-    color: white;
-    padding: 5px 5px 5px 5px;
+.about-button {
+  border-radius: 30px !important;
+  /* text-align: center; */
+  /* margin: -200px 300px 0px 870px; */
+  background-color: #3e89cd;
+  color: white;
+  /* padding: 5px 5px 5px 5px; */
+  width: 150px;
+  height: 30px;
+  border: none;
 }
-.img-loc{
-    text-align: right;
-    margin-right: 330px;
-    top: -40px;
-}
+/* .img-loc {
+  text-align: right;
+  margin-right: 330px;
+  top: -40px;
+} */
