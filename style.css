@@ -33,7 +33,6 @@
 .home-img {
   width: 650px;
   height: 450px;
-  /* margin-top: 90px; */
 }
 
 .text-1 {
@@ -56,17 +55,12 @@
 }
 .aboutMe_heading {
   color: #c5221f;
-  /* margin-left: 132px; */
-  /* margin-top: 200px; */
   font-weight: bolder;
   border-bottom: 2px solid #c5221f;
   width: 210px;
 }
 .aboutMe_intro {
   text-align: center;
-  /* margin-right: 140px; */
-  /* margin-left: 500px; */
-  /* margin-top: -40px; */
   color: black;
   font-weight: 600;
   font-size: 22px;
@@ -74,13 +68,10 @@
 .about-horizontal {
   border: 2px solid black;
 }
-
 .about-img {
   width: 150px;
   height: 250px;
   margin-top: 30px;
-}
-.about-align {
 }
 .about-button {
   border-radius: 30px !important;
@@ -89,4 +80,30 @@
   width: 150px;
   height: 30px;
   border: none;
+}
+.about-dob{
+  color: #C5221F;
+  font-weight: 600;
+}
+.about-loc{
+  color: #C5221F;
+  font-weight: 600;
+}
+.about-button{
+  height: 53px;
+  border-radius: 24px;
+  width: 160px;
+}
+.services_heading{
+  font-weight: 800;
+  font-size: 36px;
+}
+.services-img{
+  width: 350px;
+  height: 350px;
+  margin-top: 30px;
+}
+.box{
+  background: #e12723 !important;
+  text-align: center;
 }
