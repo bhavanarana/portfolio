@@ -5,6 +5,7 @@
   }
   body{
     overflow-x:hidden;
+  /* to hide the scroll use overflow */
   }
 .navbar-title {
   font-weight: bolder;
@@ -36,21 +37,27 @@
 .home-img {
   width: 650px;
   height: 450px;
+  position: absolute; 
+  right: 0%; 
+  margin-top: -400px;
+  margin-right: 50px;
+  /* use position: absolute; right: 0%; to move image in right side */
+  
 }
 
-.text-1 {
+.landingText-1 {
   color: black;
   margin-left: 25px;
   font-weight: 600;
   font-size: 24px;
 }
-.text-2 {
+.landingText-2 {
   color: black;
   margin-left: 25px;
   font-weight: bold;
   font-size: 56px;
 }
-.text-3 {
+.landingText-3 {
   color: black;
   margin-left: 25px;
   font-weight: bold;
@@ -61,12 +68,14 @@
   font-weight: bolder;
   border-bottom: 2px solid #c5221f;
   width: 210px;
+  margin-top: 80px;
 }
 .aboutMe_intro {
   text-align: center;
   color: black;
   font-weight: 600;
   font-size: 22px;
+  margin-top: 90px;
 }
 .about-horizontal {
   border: 2px solid black;
@@ -110,4 +119,14 @@
   background: #e12723 !important;
   text-align: center;
   
+}
+.responsiveService{
+  margin-top: 152px;
+  margin-left: 90px;
+}
+.websiteServices{
+margin-bottom: 05px;
+}
+.UIServices{
+  margin-top: 80px;
 }
