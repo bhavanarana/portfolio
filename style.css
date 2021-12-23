@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-}
+  }
+  body{
+    overflow-x:hidden;
+  }
 .navbar-title {
   font-weight: bolder;
   margin-left: 120px !important;
@@ -106,4 +109,5 @@
 .box{
   background: #e12723 !important;
   text-align: center;
+  
 }
