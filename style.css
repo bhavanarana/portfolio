@@ -143,3 +143,62 @@ margin-bottom: 05px;
 .UIServices{
   margin-top: 80px;
 }
+.skills-heading{
+  color: #C5221F;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 100px;
+}
+.skills-intro{
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.skills{
+  margin:0 auto;
+  text-align: center;
+  }
+  .skills-underline{
+    width: 150px;
+    background: #C5221F;
+    height: 5px;
+    margin: 0 auto;
+  }
+  .project-heading{
+    color: #C5221F;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 100px;
+  }
+  .project-heading-underline{
+    width: 250px;
+    background: #C5221F;
+    height: 5px;
+    margin: 0 auto;
+  }
+  .project-underline{
+    width: 1300px;
+    background: #CBB4B4;
+    height: 4px;
+    margin: 0 auto;
+    margin-bottom: 44px;
+    margin-top: 44px;
+  }
+  .project1{
+    position: absolute; right: 0%;
+    margin-right: 20px;
+    margin-top: -268px;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+  }
+  .projectView{
+    position: absolute; right: 0%;
+    margin-right: 20px;
+    margin-top: -180px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #C5221F;
+  }
+  
