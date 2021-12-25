@@ -172,10 +172,10 @@ margin-bottom: 05px;
   margin-top: 100px;
   }
   .project-heading-underline{
-    width: 250px;
+    width: 370px;
     background: #C5221F;
     height: 5px;
-    margin: 0 auto;
+   
   }
   .project-underline{
     width: 1300px;
@@ -201,4 +201,55 @@ margin-bottom: 05px;
     font-weight: 600;
     color: #C5221F;
   }
+  .otherActivities_heading{
+    color: #c5221f;
+    font-weight: 800;
+    border-bottom: 2px solid #c5221f;
+    width: 330px;
+    font-size: 40px;
+  }
+  .vertical-line-activites{
+    background:#A79C9C;
+  width:6px;
+  height:60px;
+  margin-left: 45px;
+    
+  }
+  .info-activities{
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 150px;
+  }
+  .chess-img{
+   /* margin: top right bottom left */
+     height: 270px;
+  }
+  .ngo-img{
+    height: 270px;
+    margin-left: 35px;
+    
+  }
+.judo-img{
+  height: 270px;
+  margin-right: 40px;
+} 
+.mc-img{
+  height: 270px;
+} 
+.charming-img{
+  height: 270px;
+  margin-right: 40px;
+}
+.ncc-img{
+  height: 270px;
+  margin-right: 40px;
+}
+.footer-wave{
+  margin-top: 400px;
+  width: 1500px;
+  margin-left: 0px;
+  
+}
+
   
