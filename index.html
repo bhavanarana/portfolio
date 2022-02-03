@@ -17,211 +17,272 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" type="text/css">
     <title>Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand navbar-title" href="#">Say Hi!</a>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-new">
+      <div class="container">
+        <a class="navbar-brand nav-brand" href="#">Say Hi!</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <!-- <nav class="navbar navbar-expand-sm bg-light"> -->
-          <ul class="navbar-nav ms-auto navbar-sections">
-            <!--shift to right-->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item nav-home">
+              <a class="nav-link active ms-4" aria-current="page" href="#"
+                >Home</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+            <li class="nav-item nav-about">
+              <a class="nav-link active ms-4" aria-current="page" href="#"
+                >About Me</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+            <li class="nav-item nav-services">
+              <a class="nav-link active ms-4" aria-current="page" href="#"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item nav-contactMe">
+              <a class="btn contact-button ms-4" aria-current="page" href="#"
+                >Contact Me</a
+              >
             </li>
           </ul>
-          <button type="button" class="btn btn-danger navbar-button">
-            Contact Me
-          </button>
         </div>
       </div>
     </nav>
-    <!--img fluid for responsive and rounder floatend to aligh to right side-->
-    <div class="container">
-      <div class="row" style="margin-top: 100px">
+    <div class="container landing-page">
+      <div class="row">
         <div
-          class="col-lg-6"
+          class="col-md-6 col-lg-6 d-flex justify-content"
+          style="margin-top: 180px"
         >
-        <div class="wrapper">
-        <div class="vertical-line"></div>
-        <div class="main-title"><h5 class="landingText-1">Hi I'm</h5>
-          <h1 class="landingText-2">Bhavana Rana</h1>
-          <h4 class="landingText-3">Front End Developer</h4>
-          <h4 class="landingText-3">UI/UX designer</h4>
-          <button type="button" class="btn btn-danger navbar-button">
-            Hire Me
-          </button>
-        </div> 
-        </div>
-      </div>
-        <div class="col-lg-6">
-          <img src="images/home-page.png" class="home-img"  />
-        </div>
-      </div>
-    </div>
-    <div class="container" style="margin-top:150px">
-      <div class="row">
-        <div class="col-lg-4">
-          <h1 class="aboutMe_heading">ABOUT ME</h1>
-          <img src="images/About-me.png" class="about-img" />
-        </div>
-        <div class="col-lg-8">
-          <p class="aboutMe_intro">
-            I am a Front-End Developer, UI/UX Designer and a part time
-            Video-Editor. Designing and Developing the Web since 2019.
-          </p>
-          <hr class="about-horizontal"></hr>
-          <div class="container d-flex justify-content-between align-items-start" style="margin-top:50px">
-            <div >
-              <p class="about-dob">Date Of Birth: 04-10-2000</p>
+          <div class="icons">
+            <div class="icons-container">
+              <img
+                src="images/twitter.png"
+                class="img-fluid"
+                style="padding: 10px"
+              />
             </div>
-            <div>
-              <button type="button" class="about-button"> <img src="images/resume.png" alt="" style="width:25px;margin-right:10px; margin-bottom: 5px;"/>Resume/CV</button></div>
-            <div class="d-flex">
-              <img src="images/location.png" style="width:30px;height:30px;" />
-            <p class="about-loc">Location: Punjab, India</p>
+            <div class="icons-container mt-2">
+              <img
+                src="images/linkdin.png"
+                class="img-fluid"
+                style="padding: 10px"
+              />
             </div>
-          </div>  
-        </div>
-      </div>
-    </div>
-    <div class="container" style="margin-top:150px">
-      <div class="row">
-        <div class="col-lg-4">
-          <h1 class="services_heading">My awesome <span style="color: #C5221F; border-bottom: 2px solid #c5221f;">SERVICES</span></h1>
-          <img src="/images/myservices.png" class="services-img" />
-        </div>
-        <div class="col-lg-4 ">
-                    <p class="services">
-            <div class="card text-white box mb-3 responsiveService" style="max-width: 17rem; height: 270px;">
-              <img class="card-img-top services-img3" src="/images/responsivesite-icon.png" alt="" style="width: 60px; height: 65px; margin: 40px 60px 0px 105px">
-              <div class="card-body-main">
-                <h5 class="card-title ">Responsive Sites</h5>
-                <p class="card-text">Creation of the responsive website for the best viewing at all resolutions.</p>
-              </div>
+            <div class="icons-container mt-2">
+              <img
+                src="images/instagram.png"
+                class="img-fluid"
+                style="padding: 10px"
+              />
             </div>
-          </p> 
-         </div>
-        <div class="col-lg-4">
-          <p class="services">
-            <div class="card text-white box mb-3 websiteServices" style="max-width: 17rem; height: 270px;">
-              <img class="card-img-top services-img3" src="/images/website-creation-icon.png" alt="" style="width: 60px; height: 65px; margin: 40px 60px 0px 105px">
-              <div class="card-body-main">
-                <h5 class="card-title">Website Creation</h5>
-                <p class="card-text">Development of professional websites, web systems, blogs and online stores.</p> 
-              </div>  
-              </div>
-            <div class="card text-white box mb-3 UIServices" style="max-width: 17rem; height: 270px;">
-              <img class="card-img-top services-img3" src="/images/UIUx-icon.png" alt="" style="width: 60px; height: 65px; margin: 40px 60px 0px 105px">
-              <!-- <div class="card-header">Header</div> -->
-              <div class="card-body-main">
-                <h5 class="card-title">UI/UX Design</h5>
-                <p class="card-text">Designs layout that fits your business in a professional and faithful way in development.</p>
-              </div>
-            </div>  
-          </p> 
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-auto skills">
-          <div class="skills-heading">SKILLS</div>
-          <div class="skills-underline"></div>
-          <div class="skills-intro">Designing and Developing the Web since 2019. </div>
-          <div><img src="/images/skills.png" style="margin-top: 40px;"></div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-auto">
-          <div class="project-heading">RECENT PROJECTS</div>
-          <div class="project-heading-underline"></div>
-          <div class="project-underline"></div>
-          <div><img src="/images/project1.png"></div>
-          <div class="col-3 project1">Website design for online platform to share data</div>
-          <div class="col-3 projectView">View the case<span><img src="/images/Arrow 1.png" style="margin-left: 10px;"></span></div>
-        </div>
-        <div class="row">
-          <div class="col-auto">
-            <div class="project-underline"></div>
-            <div><img src="/images/project2.png"></div>
-            <div class="col-3 project1">Website design for online platform to share data</div>
-            <div class="col-3 projectView">View the case<span><img src="/images/Arrow 1.png" style="margin-left: 10px;"></span></div>
+            <div class="vertical-line mt-2"></div>
           </div>
+          <div class="home-intro" style="margin-left: 35px">
+            <h4 class="head-1">Hi! I'm</h4>
+            <h2 class="head-2">Bhavana</h2>
+            <h4 class="head-3">Front End Developer</h4>
+            <h4 class="head-3">UI/UX Designer</h4>
+            <a class="btn hire-button" aria-current="page" href="#">Hire Me</a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block d-flex justify-content-end">
+          <img
+            src="images/home-page.png"
+            class="img-fluid"
+            style="width: 732px; height: 570px"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="about-Me container">
+      <div class="row">
+        <div class="col-3">
+          <h1 class="about-MeHeading">About Me</h1>
+          <img src="images/About-me.png" class="about-MeImage" />
+        </div>
+        <div class="col-9 about-MeDesc">
+          I am a Front-End Developer, UI/UX Designer and a part Video-Editor.
+          Designing and Developing the Web since 2019.
+          <hr />
+          <div class="d-flex justify-content-between">
+            <div class="about-MeDOB">Date Of Birth: 04-10-2000</div>
+            <div class="button-container">
+              <p class="gradient-text">Download CV</p>
+            </div>
+            <div class="about-MeLOC">Location: Punjab, India</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services container">
+      <div class="row">
+        <div class="service-heading">My Awesome Services</div>
       </div>
       <div class="row">
-        <div class="col-auto">
-          <div class="project-underline"></div>
-          <div><img src="/images/project3.png"></div>
-          <div class="col-3 project1">Website design for online platform to share data</div>
-          <div class="col-3 projectView">View the case<span><img src="/images/Arrow 1.png" style="margin-left: 10px;"></span></div>
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-evenly">
+          <div
+            class="card text-center"
+            style="
+              width: 16rem;
+              margin-top: 50px;
+              background-color: #e64b48;
+              border-radius: 30px;
+            "
+          >
+            <img
+              src="images/responsivesite-icon.png"
+              class="card-img-top responsive-img mx-auto"
+            />
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style="color: white; font-weight: bold; font-size: 22px"
+              >
+                Responsive Sites
+              </h5>
+              <p class="card-text" style="font-size: 18px; color: white">
+                Creation of the responsive website for the best viewing at all
+                resolutions.
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
-    </div>
-    </div>
-    <div class="container">
-      <div class="row" style="margin-top: 100px">
-        <div
-          class="col-lg-3"
-        >
-        <div class="main-title"><h5 class="otherActivities_heading">Other Activities</h5> </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-evenly">
+          <div
+            class="card text-center"
+            style="
+              width: 16rem;
+              margin-top: 50px;
+              background-color: #e64b48;
+              border-radius: 30px;
+            "
+          >
+            <img
+              src="images/website-creation-icon.png"
+              class="card-img-top responsive-img mx-auto"
+            />
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style="color: white; font-weight: bold; font-size: 22px"
+              >
+                Website Creation
+              </h5>
+              <p class="card-text" style="font-size: 18px; color: white">
+                Development of professional websites, web systems, blogs and
+                online stores.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-1">
-          <div class="vertical-line-activites"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-evenly">
+          <div
+            class="card text-center"
+            style="
+              width: 16rem;
+              margin-top: 50px;
+              background-color: #e64b48;
+              border-radius: 30px;
+            "
+          >
+            <img
+              src="images/UIUx-icon.png"
+              class="card-img-top responsive-img mx-auto"
+            />
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style="color: white; font-weight: bold; font-size: 22px"
+              >
+                UI/UX Design
+              </h5>
+              <p class="card-text" style="font-size: 18px; color: white">
+                Designs layout that fits your business in a professional and
+                faithful way in development.
+              </p>
+            </div>
+          </div>
         </div>
-     
-      <div class="col-lg-8 info-activities">Apart from the technical skills I’m a NCC Cadet (CUO), Chess and Judo player, Anchor, Coordinator in NGO.  </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row" style="margin-top: 100px">
-        <div class="col">
-          <img src="/images/chess.png" class="chess-img">
+    <div class="container projects">
+      <div class="row">
+        <div class="project-heading mt-5">RECENT PROJECTS</div>
+        <div class="horizontal-line mt-5 mb-5"></div>
+        <div class="col-8">
+          <img src="/images/project1.png" class="img-fluid" />
         </div>
-        <div class="col">
-          <img src="/images/ngo.png" class="ngo-img">
+        <div class="col-4 content">
+          Website design for online platform to share data
+          <div class="case mt-3 case">
+            View more case <span><img src="/images/Arrow.svg"</span>
+          </div>
         </div>
-        <div class="col">
-          <img src="/images/judo.png" class="judo-img">
+        <div class="horizontal-line mt-5 mb-5"></div>
+        <div class="col-8">
+          <img src="/images/project1.png" class="img-fluid" />
         </div>
-      </div>
-      <div class="row" style="margin-top: 60px;">
-        <div class="col">
-          <img src="/images/mc.png" class="mc-img">
+        <div class="col-4 content">
+          Website design for online platform to share data
+          <div class="case mt-3 case">
+            View more case <span><img src="/images/Arrow.svg"</span>
+          </div>
         </div>
-        <div class="col">
-          <img src="/images/charming.png" class="charming-img">
+        <div class="horizontal-line mt-5 mb-5"></div>
+        <div class="col-8">
+          <img src="/images/project1.png" class="img-fluid" />
         </div>
-        <div class="col">
-          <img src="/images/ncc.png" class="ncc-img">
+        <div class="col-4 content">
+          Website design for online platform to share data
+          <div class="case mt-3 case">
+            View more case <span><img src="/images/Arrow.svg"</span>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <img src="/images/wave.png" class="footer-wave"
-  >
-    </div>
-
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="row-footer">
+          <div class="footer-col">
+            <h4>Featured</h4>
+            <ul>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Projects</a></li>
+            </ul>
+          </div>
+         
+          <div class="footer-col">
+            <h4>Contact Me</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="footer-plant">
+            <img src="/images/plantpot.svg">
+          </div>
+        </div>
+      </div>
+   </footer>
+ 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -229,4 +290,3 @@
     ></script>
   </body>
 </html>
-

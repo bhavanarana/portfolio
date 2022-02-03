@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /* to hide the scroll use overflow */
+}
+@mixin nav-func {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+@mixin link {
+  color: white;
+  text-decoration: none;
+}
+
+@mixin buttons {
+  background-color: #d14f4f !important;
+  color: white !important;
+  border-radius: 13px;
+}
+@mixin headings {
+  font-weight: 800;
+  font-size: 36px;
+  text-decoration-line: underline;
+  color: #c5221f;
+}
+@mixin skill-img {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+}
+@media (max-width: 992px) {
+  .about-MeHeading {
+    font-size: 31px !important;
+  }
+  .about-MeDesc {
+    font-size: 20px !important;
+  }
+  .about-MeDOB {
+    font-size: 14px !important;
+  }
+  .about-MeLOC {
+    font-size: 14px !important;
+  }
+  .about-MeImage {
+    margin-right: 1px !important;
+  }
+  .button-container {
+    width: 160px !important;
+    height: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .about-MeHeading {
+    font-size: 22px !important;
+  }
+  .about-MeImage {
+    width: 85px !important;
+    height: 120px !important;
+  }
+  .about-MeDesc {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
+  .about-MeDOB {
+    font-size: 12px !important;
+  }
+  .about-MeLOC {
+    font-size: 12px !important;
+  }
+  .cv-button {
+    width: 100px !important;
+    height: 25px;
+  }
+  .about-MeLink {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+  }
+  .resume-icon {
+    display: none;
+  }
+}
+
+.navbar-new {
+  .nav-brand {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .nav-link:hover{
+color: #c5221f !important;
+  }
+  .contact-button {
+    @include nav-func;
+    @include buttons;
+  }
+  .nav-home {
+    @include nav-func;
+  }
+  .nav-about {
+    @include nav-func;
+  }
+  .nav-services {
+    @include nav-func;
+  }
+  .nav-contactMe {
+    @include nav-func;
+  }
+}
+.vertical-line {
+  width: 7px;
+  height: 86px;
+  background: #000000;
+  border-radius: 35px;
+  margin-left: 22px;
+}
+.landing-page {
+  .heaad-1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+  }
+  .head-2 {
+    font-weight: bold;
+    font-size: 56px;
+    color: black;
+  }
+  .head-3 {
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+  }
+  .hire-button {
+    @include buttons;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .icons-container{
+      width: 50px;
+      height: 50px;
+      box-shadow: -5px -5px 10px #f5f5f5, 5px 5px 10px #d6d6d6;
+      border-radius: 15px;
+      text-align: center;
+    }
+    .icons-container:hover {
+      background: #f6f6f6;
+      box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3),
+        -1px -1px 2px rgba(197, 197, 197, 0.5),
+        inset -2px 2px 4px rgba(197, 197, 197, 0.2),
+        inset 2px -2px 4px rgba(197, 197, 197, 0.2),
+        inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+        inset 2px 2px 5px rgba(197, 197, 197, 0.9);
+        cursor:pointer;
+    }
+}
+.about-Me {
+  margin-top: 150px;
+  .about-MeHeading {
+    @include headings;
+  }
+
+  .about-MeImage {
+    width: 140px;
+    height: 248px;
+    padding: 10px;
+  }
+  .about-MeDesc {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  .about-MeDOB {
+    font-weight: 600;
+    font-size: 19px;
+    color: #c5221f;
+  }
+  .about-MeLOC {
+    font-weight: 600;
+    font-size: 19px;
+    color: #c5221f;
+  }
+  .gradient-text{
+    font-size: 22px;
+  background: -webkit-linear-gradient(top left,#3f5efb, #db34b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .button-container {
+    width: 200px;
+      height: 40px;
+      background: #EDEDED;
+box-shadow: 1px -1px 2px rgba(255, 255, 255, 0.3), -1px 1px 2px rgba(180, 180, 180, 0.5), inset -1px -1px 2px rgba(180, 180, 180, 0.2), inset 1px 1px 2px rgba(180, 180, 180, 0.2), inset -1px 1px 2px rgba(255, 255, 255, 0.9), inset 1px -1px 3px rgba(180, 180, 180, 0.9);
+      border-radius: 15px;
+      text-align: center
+  }
+  .button-container:hover{
+    background: #f6f6f6;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3),
+      -1px -1px 2px rgba(197, 197, 197, 0.5),
+      inset -2px 2px 4px rgba(197, 197, 197, 0.2),
+      inset 2px -2px 4px rgba(197, 197, 197, 0.2),
+      inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+      inset 2px 2px 5px rgba(197, 197, 197, 0.9);
+      cursor:pointer;
+  }
+  .resume-icon {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .about-MeLink {
+    @include link;
+  }
+}
+.services {
+  margin-top: 150px;
+  .service-heading {
+    @include headings;
+    text-align: center;
+  }
+  .responsive-img {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+  }
+}
+.skills {
+  margin-top: 150px;
+  .skill-heading {
+    @include headings;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .html-img {
+    @include skill-img;
+  }
+  .skill-container {
+    width: 100px;
+    height: 100px;
+    box-shadow: -5px -5px 10px #f5f5f5, 5px 5px 10px #d6d6d6;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .skill-container:hover {
+    background: #f6f6f6;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3),
+      -1px -1px 2px rgba(197, 197, 197, 0.5),
+      inset -2px 2px 4px rgba(197, 197, 197, 0.2),
+      inset 2px -2px 4px rgba(197, 197, 197, 0.2),
+      inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+      inset 2px 2px 5px rgba(197, 197, 197, 0.9);
+      cursor:pointer;
+  }
+}
+// .card-img{
+//   width:400px;
+//   height:200px;
+// }
+// .card-overlay{
+//   position: absolute;
+//   color:white;
+// }
+// .card-box{
+//   width:400px;
+//   height:200px;
+// }
+.projects{
+.project-heading{
+ @include headings;
+}
+.horizontal-line{
+  height: 4px;
+  width: 1500px;
+  background-color: #CBB4B4;
+  border-radius: 14px;
+}
+.content{
+  font-weight: 600;
+font-size: 22px;
+color: #000000;
+}
+.case{
+  font-size: 18px;
+  color: #c5221f;
+}
+}
+.container-footer{
+	max-width: 1170px;
+	margin:auto;
+}
+.row-footer{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    margin-top: 250px;
+    position:relative;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.footer-plant{
+  position:absolute;
+  bottom:0;
+  right:0;
+}
