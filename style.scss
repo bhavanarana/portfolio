@@ -189,31 +189,28 @@ body {
     color: #c5221f;
   }
   .gradient-text {
-    margin-top:4px;
     font-size: 20px;
     background: -webkit-linear-gradient(top left, #3f5efb, #db34b3);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+ 
   .button-container {
     width: 200px;
-    height: 45px;
+    height: 40px;
     background: #ffffff;
+    border-radius: 15px;
+    text-align: center;
     box-shadow: 1px -1px 2px rgba(255, 255, 255, 0.3),
       -1px 1px 2px rgba(180, 180, 180, 0.5),
       inset -1px -1px 2px rgba(180, 180, 180, 0.2),
       inset 1px 1px 2px rgba(180, 180, 180, 0.2),
       inset -1px 1px 2px rgba(255, 255, 255, 0.9),
       inset 1px -1px 3px rgba(180, 180, 180, 0.9);
-    border-radius: 15px;
-    text-align: center;
   }
   .button-container:hover {
     cursor: pointer;
-    width: 208px;
-    height: 48px;
-    transition: 0.4s ease;
   }
   .resume-icon {
     padding: 5px;
@@ -314,6 +311,14 @@ body {
   .case {
     font-size: 18px;
     color: #c5221f;
+    text-decoration: none;
+    margin-top: 100px !important;
+  }
+  .case:hover {
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.1s ease;
   }
 }
 // .container-footer {
