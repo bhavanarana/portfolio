@@ -8,6 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
   /* to hide the scroll use overflow */
+  overflow-x: hidden;
 }
 
 @media (max-width: 992px) {

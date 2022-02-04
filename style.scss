@@ -6,6 +6,8 @@
 body {
   font-family: "Poppins", sans-serif;
   /* to hide the scroll use overflow */
+  overflow-x: hidden;
+
 }
 @mixin nav-func {
   font-style: normal;
